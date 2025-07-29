@@ -105,6 +105,11 @@ resources:
 
 shareProcessNamespace: false
 
+# Provide custom init container configuration for installer
+# initContainers:
+# - name: <INIT_CONTAINER_NAME>
+#   image: <INIT_CONTAINER_IMAGE>
+
 # Provide custom side car container configuration for installer
 # sidecarContainers:
 #  - name: <SIDECAR_CONTAINER_NAME>
